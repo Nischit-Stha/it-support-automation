@@ -1,0 +1,85 @@
+IT Support System Health Check Report
+Generated,2025-12-18 10:00:11
+Hostname,parrot
+Operating System,Linux 6.12.32-amd64
+
+DISK SPACE
+Device,Mountpoint,Filesystem,Total (GB),Used (GB),Free (GB),Used (%)
+/dev/nvme0n1p1,/,btrfs,238.47,128.18,108.59,54.1
+/dev/loop2,/snap/core/17247,squashfs,0.1,0.1,0.0,100.0
+/dev/loop1,/snap/core/17212,squashfs,0.1,0.1,0.0,100.0
+/dev/loop3,/snap/core18/2959,squashfs,0.05,0.05,0.0,100.0
+/dev/loop0,/snap/bare/5,squashfs,0.0,0.0,0.0,100.0
+/dev/loop6,/snap/core22/2133,squashfs,0.07,0.07,0.0,100.0
+/dev/loop7,/snap/core22/2139,squashfs,0.07,0.07,0.0,100.0
+/dev/loop8,/snap/core20/2669,squashfs,0.06,0.06,0.0,100.0
+/dev/loop5,/snap/core20/2682,squashfs,0.06,0.06,0.0,100.0
+/dev/loop4,/snap/core18/2976,squashfs,0.05,0.05,0.0,100.0
+/dev/loop9,/snap/core24/1225,squashfs,0.07,0.07,0.0,100.0
+/dev/loop10,/snap/core24/1237,squashfs,0.07,0.07,0.0,100.0
+/dev/loop11,/snap/gnome-3-28-1804/198,squashfs,0.16,0.16,0.0,100.0
+/dev/loop12,/snap/gnome-42-2204/202,squashfs,0.5,0.5,0.0,100.0
+/dev/loop13,/snap/gnome-42-2204/226,squashfs,0.5,0.5,0.0,100.0
+/dev/loop14,/snap/gnome-46-2404/125,squashfs,0.6,0.6,0.0,100.0
+/dev/loop15,/snap/gnome-46-2404/145,squashfs,0.65,0.65,0.0,100.0
+/dev/loop16,/snap/gtk-common-themes/1535,squashfs,0.09,0.09,0.0,100.0
+/dev/loop17,/snap/hello-world/29,squashfs,0.0,0.0,0.0,100.0
+/dev/loop18,/snap/kf6-core24/33,squashfs,1.28,1.28,0.0,100.0
+/dev/loop19,/snap/kf6-core24/34,squashfs,1.3,1.3,0.0,100.0
+/dev/loop20,/snap/kolourpaint/122,squashfs,0.01,0.01,0.0,100.0
+/dev/loop21,/snap/kolourpaint/124,squashfs,0.01,0.01,0.0,100.0
+/dev/loop22,/snap/krdc/107,squashfs,0.0,0.0,0.0,100.0
+/dev/loop23,/snap/mesa-2404/1165,squashfs,0.39,0.39,0.0,100.0
+/dev/loop24,/snap/mesa-2404/912,squashfs,0.28,0.28,0.0,100.0
+/dev/loop25,/snap/nightmayr-kf5-qt-5-15-2-core20/30,squashfs,0.51,0.51,0.0,100.0
+/dev/loop26,/snap/note-rs/1,squashfs,0.12,0.12,0.0,100.0
+/dev/loop27,/snap/obsidian/52,squashfs,0.13,0.13,0.0,100.0
+/dev/loop28,/snap/obsidian/53,squashfs,0.13,0.13,0.0,100.0
+/dev/loop29,/snap/outlook-ew/4,squashfs,0.09,0.09,0.0,100.0
+/dev/loop30,/snap/ppsspp-emu/11,squashfs,0.21,0.21,0.0,100.0
+/dev/loop31,/snap/qt515-core20/44,squashfs,0.43,0.43,0.0,100.0
+/dev/loop32,/snap/qt515-core20/46,squashfs,0.49,0.49,0.0,100.0
+/dev/loop33,/snap/rpcs3-emu/851,squashfs,0.05,0.05,0.0,100.0
+/dev/loop34,/snap/snap-store/1270,squashfs,0.01,0.01,0.0,100.0
+/dev/loop35,/snap/snap-store/1300,squashfs,0.02,0.02,0.0,100.0
+/dev/loop36,/snap/teams-for-linux/1037,squashfs,0.11,0.11,0.0,100.0
+/dev/loop37,/snap/teams-for-linux/1062,squashfs,0.11,0.11,0.0,100.0
+/dev/loop38,/snap/whatsapp-linux-app/2,squashfs,0.08,0.08,0.0,100.0
+/dev/loop39,/snap/whatsie/165,squashfs,0.02,0.02,0.0,100.0
+/dev/loop40,/snap/zoom-client/258,squashfs,0.44,0.44,0.0,100.0
+/dev/loop41,/snap/zoom-client/275,squashfs,0.47,0.47,0.0,100.0
+/dev/nvme0n1p1,/home,btrfs,238.47,128.18,108.59,54.1
+
+CPU INFORMATION
+Metric,Value
+Usage (%),27.4
+Physical Cores,4
+Logical Cores,8
+Current Frequency (MHz),746.46
+
+RAM INFORMATION
+Metric,Value
+Total (GB),14.72
+Used (GB),6.56
+Available (GB),8.17
+Used (%),44.5
+
+LOGGED IN USERS
+Username,Terminal,Host,Login Time
+redmoon,tty7,localhost,2025-12-18 09:06:03
+
+PASSWORD EXPIRY
+Username,Expiry Date
+nobody,never
+redmoon,never
+
+NETWORK INTERFACES
+Interface,IP Address,Netmask
+lo,127.0.0.1,255.0.0.0
+wlp0s20f3,192.168.0.94,255.255.255.0
+
+CONNECTIVITY TESTS
+Description,Host,Port,Status
+Google DNS,8.8.8.8,53,OK
+Cloudflare DNS,1.1.1.1,53,OK
+Google HTTP,google.com,80,OK
